@@ -21,5 +21,9 @@
     "apps/*",
     "packages/*",
     "clis/*"
-  ]
+  ],
+  "dependencies": {
+    "@types/express": "^5.0.2",
+    "express": "^5.1.0"
+  }
 }
