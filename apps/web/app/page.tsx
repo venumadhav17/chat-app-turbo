@@ -23,11 +23,7 @@ export default function Home() {
           justifyContent: "center"
         }}
       >
-        <TextInput
-          onChange={() => {}}
-          placeholder='Room name'
-          size='big'
-        ></TextInput>
+        <TextInput placeholder='Room name' size='big'></TextInput>
         <button
           onClick={() => {
             router.push("/chat/123");
